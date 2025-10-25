@@ -1,0 +1,748 @@
+#box{
+	position: static;
+	border: 3px solid black;
+	background: #fff7d6;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding:20px;
+	max-width: 50%;
+	margin: 5% auto;
+	border-radius: 5px;
+	height: auto;
+	overflow: hidden;
+
+}
+
+input[target="data"]{
+	width: 100%;
+	height:20px;
+}
+
+input[target="num_peo"]{
+	width: 100%;
+	height:20px;
+}
+
+#customer{
+	text-align:center ;
+	width: 20vw;
+	height: auto;
+	display: block;
+  	margin: 0 auto;
+  	padding-top: 45px;
+  	padding-bottom: 45px;
+  	padding-left: 75px;
+  	padding-right: 75px;
+  	border: 3px solid #2f701c;
+}
+
+#details{
+	text-align:center ;
+	width: 45vw;
+	height: auto;
+	display: block;
+  	margin-left: 2px;
+  	margin-right: 2px;
+    border: 3px solid #2f701c;
+}
+
+img[src="greenlogo.jpg"]
+	{
+	width: 50vw;
+	height: auto;
+	display: block;
+	margin: 0 auto 20px auto;
+}
+/*Appetizer Section*/
+#appetizer_section
+	{
+	position: relative;
+  	width: 45vw;
+  	height: auto;
+  	display: inline-block;
+  	border: 5px solid black;
+  	overflow: hidden;
+}
+
+#appetizer_text
+{
+	text-transform: uppercase;
+	text-align: left;
+
+}
+.base
+	{
+	width: 45vw;
+	height: auto;
+	display: block;
+	object-fit: contain;
+}
+
+
+.tumato2
+{
+	width: 65%;
+	height: 60%;
+	padding-block: 5px;
+	padding-inline: 10px;
+  	
+}
+
+.tumato3
+{
+	width: 52%;
+	height: 60%;
+	padding-block: 4px;
+	padding-inline: 10px;
+  	
+}
+
+.card_salad {
+	position: absolute;
+	bottom: 200px;
+	left: 400px;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 20%;
+  	height: 33%;
+  	background-color: #fff7d6;
+  	border-radius: 5px;
+  	overflow: hidden;
+}
+
+.card_salad:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container_salad {
+  padding: 2px 16px;
+  margin: 0 auto;
+}
+
+.card_bread {
+	position: absolute;
+	bottom: 50px;
+	left: 400px;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 20%;
+  	height: 33%;
+  	background-color: #fff7d6;
+  	border-radius: 5px;
+  	overflow: hidden;
+}
+
+.card_bread:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container_bread {
+  padding: 2px 16px;
+  margin: 0 auto;
+}
+
+.card_tomato {
+	position: absolute;
+	bottom: 50px;
+	right: 20px;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 20%;
+  	height: 33%;
+  	background-color: #fff7d6;
+  	border-radius: 5px;
+  	overflow: hidden;
+}
+
+.card_tomato:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container_tomato {
+  padding: 2px 16px;
+  margin: 0 auto;
+}
+
+.card_mushroom {
+	position: absolute;
+	bottom: 200px;
+	right: 20px;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 20%;
+  	height: 33%;
+  	background-color: #fff7d6;
+  	border-radius: 5px;
+  	overflow: hidden;
+}
+
+.card_mushroom:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container_mushroom {
+  padding: 2px 16px;
+  margin: 0 auto;
+}
+
+/*Main Dish Section*/
+
+#maindish_section
+	{
+	position: relative;
+  	width: 45vw;
+  	height: auto;
+  	display: inline-block;
+  	border: 5px solid black;
+  	overflow: hidden;
+}
+
+#main_dish_text
+{
+	text-transform: uppercase;
+	text-align: left;
+
+}
+.base2
+	{
+	width: 45vw;
+	height: auto;
+	display: block;
+	object-fit: contain;
+}
+.card_roast_beef {
+	position: absolute;
+	bottom: 370px;
+	left: 240px;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 20%;
+  	height: 23%;
+  	background-color: #fff7d6;
+  	border-radius: 5px;
+  	overflow: hidden;
+}
+
+.card_roast_beef:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container_roast_beef {
+  padding: 2px 16px;
+  margin: 0 auto;
+}
+.card_beef_steak {
+	position: absolute;
+	bottom: 370px;
+	right: 200px;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 20%;
+  	height: 23%;
+  	background-color: #fff7d6;
+  	border-radius: 5px;
+  	overflow: hidden;
+}
+
+.card_beef_steak:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container_beef_steak {
+  padding: 2px 16px;
+  margin: 0 auto;
+}
+
+.card_ribs {
+	position: absolute;
+	bottom: 370px;
+	right: 20px;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 20%;
+  	height: 23%;
+  	background-color: #fff7d6;
+  	border-radius: 5px;
+  	overflow: hidden;
+}
+
+.card_ribs:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container_ribs {
+  padding: 2px 16px;
+  margin: 0 auto;
+}
+
+.card_marbella {
+	position: absolute;
+	bottom: 220px;
+	left: 240px;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 20%;
+  	height: 23%;
+  	background-color: #fff7d6;
+  	border-radius: 5px;
+  	overflow: hidden;
+}
+
+.card_marbella:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container_marbella {
+  padding: 2px 16px;
+  margin: 0 auto;
+}
+
+.card_grilled {
+	position: absolute;
+	bottom: 220px;
+	right: 200px;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 20%;
+  	height: 23%;
+  	background-color: #fff7d6;
+  	border-radius: 5px;
+  	overflow: hidden;
+}
+
+.card_grilled:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container_grilled {
+  padding: 2px 16px;
+  margin: 0 auto;
+}
+
+.card_roast{
+	position: absolute;
+	bottom: 220px;;
+	right: 20px;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 20%;
+  	height: 23%;
+  	background-color: #fff7d6;
+  	border-radius: 5px;
+  	overflow: hidden;
+}
+
+.card_roast:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container_roast {
+  padding: 2px 16px;
+  margin: 0 auto;
+}
+
+.card_broiled {
+	position: absolute;
+	bottom: 70px;
+	right: 20px;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 20%;
+  	height: 23%;
+  	background-color: #fff7d6;
+  	border-radius: 5px;
+  	overflow: hidden;
+}
+
+.card_broiled:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container_broiled {
+  padding: 2px 16px;
+  margin: 0 auto;
+}
+
+.card_grilled_salmon {
+	position: absolute;
+	bottom: 70px;
+	right: 200px;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 20%;
+  	height: 23%;
+  	background-color: #fff7d6;
+  	border-radius: 5px;
+  	overflow: hidden;
+}
+
+.card_grilled_salmon:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container_grilled_salmon {
+  padding: 2px 16px;
+  margin: 0 auto;
+}
+
+/*Desert Section*/
+
+#desert_section
+	{
+	position: relative;
+  	width: 45vw;
+  	height: auto;
+  	display: inline-block;
+  	border: 5px solid black;
+  	overflow: hidden;
+}
+
+#desert_text
+{
+	text-transform: uppercase;
+	text-align: left;
+
+}
+.base3
+	{
+	width: 45vw;
+	height: auto;
+	display: block;
+	object-fit: contain;
+}
+
+.card_molten {
+	position: absolute;
+	bottom: 200px;
+	left: 410px;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 20%;
+  	height: 33%;
+  	background-color: #fff7d6;
+  	border-radius: 5px;
+  	overflow: hidden;
+}
+
+.card_molten:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container_molten {
+  padding: 2px 16px;
+  margin: 0 auto;
+}
+
+.card_red_velvet {
+	position: absolute;
+	bottom: 50px;
+	left: 410px;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 20%;
+  	height: 33%;
+  	background-color: #fff7d6;
+  	border-radius: 5px;
+  	overflow: hidden;
+}
+
+.card_red_velvet:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container_red_velvet {
+  padding: 2px 16px;
+  margin: 0 auto;
+}
+
+.card_lemon {
+	position: absolute;
+	bottom: 50px;
+	right: 20px;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 20%;
+  	height: 33%;
+  	background-color: #fff7d6;
+  	border-radius: 5px;
+  	overflow: hidden;
+}
+
+.card_lemon:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container_lemon {
+  padding: 2px 16px;
+  margin: 0 auto;
+}
+
+.card_peanut {
+	position: absolute;
+	bottom: 200px;
+	right: 20px;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 20%;
+  	height: 35%;
+  	background-color: #fff7d6;
+  	border-radius: 5px;
+  	overflow: hidden;
+}
+
+.card_peanut:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container_peanut {
+  padding: 2px 16px;
+  margin: 0 auto;
+}
+
+.card_buko {
+	position: absolute;
+	bottom: 200px;
+	left: 230px;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 20%;
+  	height: 35%;
+  	background-color: #fff7d6;
+  	border-radius: 5px;
+  	overflow: hidden;
+}
+
+.card_buko:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container_buko {
+  padding: 2px 16px;
+  margin: 0 auto;
+}
+
+.card_meringue{
+	position: absolute;
+	bottom: 50px;;
+	left: 230px;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 20%;
+  	height: 33%;
+  	background-color: #fff7d6;
+  	border-radius: 5px;
+  	overflow: hidden;
+}
+
+.card_meringue:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container_meringue {
+  padding: 2px 16px;
+  margin: 0 auto;
+}
+
+/*Rice Section*/
+#rice_section
+	{
+	position: relative;
+  	width: 45vw;
+  	height: auto;
+  	display: inline-block;
+  	border: 5px solid black;
+  	overflow: hidden;
+}
+
+#rice_text
+{
+	text-transform: uppercase;
+	text-align: left;
+
+}
+.base4
+	{
+	width: 45vw;
+	height: auto;
+	display: block;
+	object-fit: contain;
+}
+
+.card_plain {
+	position: absolute;
+	bottom: 200px;
+	left: 400px;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 20%;
+  	height: 33%;
+  	background-color: #fff7d6;
+  	border-radius: 5px;
+  	overflow: hidden;
+}
+
+.card_plain:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container_plain {
+  padding: 2px 16px;
+  margin: 0 auto;
+}
+
+.card_garlic {
+	position: absolute;
+	bottom: 50px;
+	left: 400px;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 20%;
+  	height: 33%;
+  	background-color: #fff7d6;
+  	border-radius: 5px;
+  	overflow: hidden;
+}
+
+.card_garlic:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container_garlic {
+  padding: 2px 16px;
+  margin: 0 auto;
+}
+
+.card_bagoong {
+	position: absolute;
+	bottom: 200px;
+	right: 20px;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 20%;
+  	height: 33%;
+  	background-color: #fff7d6;
+  	border-radius: 5px;
+  	overflow: hidden;
+}
+
+.card_bagoong:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container_bagoong {
+  padding: 2px 16px;
+  margin: 0 auto;
+}
+
+/*Drinks Section*/
+
+#drink_section
+	{
+	position: relative;
+  	width: 45vw;
+  	height: auto;
+  	display: inline-block;
+  	border: 5px solid black;
+  	overflow: hidden;
+}
+
+#drink_text
+{
+	text-transform: uppercase;
+	text-align: left;
+
+}
+.base5
+	{
+	width: 45vw;
+	height: auto;
+	display: block;
+	object-fit: contain;
+}
+
+.card_cucumber {
+	position: absolute;
+	bottom: 200px;
+	left: 400px;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 20%;
+  	height: 33%;
+  	background-color: #fff7d6;
+  	border-radius: 5px;
+  	overflow: hidden;
+}
+
+.card_cucumber:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container_cucumber {
+  padding: 2px 16px;
+  margin: 0 auto;
+}
+
+.card_tea {
+	position: absolute;
+	bottom: 50px;
+	left: 400px;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 20%;
+  	height: 33%;
+  	background-color: #fff7d6;
+  	border-radius: 5px;
+  	overflow: hidden;
+}
+
+.card_tea:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container_tea {
+  padding: 2px 16px;
+  margin: 0 auto;
+}
+
+.card_mango {
+	position: absolute;
+	bottom: 200px;
+	right: 20px;
+  	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+  	width: 20%;
+  	height: 33%;
+  	background-color: #fff7d6;
+  	border-radius: 5px;
+  	overflow: hidden;
+}
+
+.card_mango:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container_mango {
+  padding: 2px 16px;
+  margin: 0 auto;
+}
+
+#delivery{
+	text-align:center ;
+	width: 38vw;
+	height: auto;
+	display: block;
+  	margin: 0 auto;
+  	padding-top: 45px;
+  	padding-bottom: 45px;
+  	padding-left: 75px;
+  	padding-right: 75px;
+  	border: 3px solid #2f701c;
+}
+
+.size_legend{
+	font-size: 25px;
+	color: #2f701c;
+	font-weight: bolder;
+}

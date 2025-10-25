@@ -1,0 +1,312 @@
+<!-- Francisco Luis C. Torres -->
+<!-- CMSC 12-Y5L -->
+<!-- 10/17/25 -->
+<!-- This HTML page is for setting up a party with details. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Party Details </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="Torres_exer8_CSS.css">
+</head>
+
+<body>
+	<div>
+	<div id="box">
+	<img src="images/greenlogo.jpg" id="logo" alt="Green logo">
+	<form>
+		<fieldset id="customer"> 
+			<legend class="size_legend">Customer Information</legend>
+			<input type="text" name="user_name" placeholder="Name" target="data" required>
+			<br>
+			<br>
+			<input type="tel" name="m_number" placeholder=" Mobile number-09XXXXXXXXXXX" pattern="[0-9]{11}" target="data" required>
+			<br>
+			<br>
+			<input type="email" name="em_add" placeholder="Email Address" target="data" required>
+			<br>
+			<br>
+		</fieldset>
+			<br>
+		<fieldset id="details">
+			<legend class="size_legend">Party Details</legend>
+			<br>
+			<input type="text" name="num_people" placeholder="Number of People"target="num-peo">
+			<br>
+		<div id="appetizer_text">
+				<p>Appetizer(Select one)<p>
+		</div>
+		<div id="appetizer_section">
+			<img src="images/Appetizers.png" class="base">
+			<div class="card_salad">
+					<input type="radio" name="appetizer" id="salad_appet" value="appet_salad" checked>
+					<label for="salad_appet">
+					<img src="images/salad.png" alt="Salad" class="tumato2">
+					<div class="container_salad">
+						Salad
+					</div>
+					</label>
+			</div>
+			<div class="card_bread">
+					<input type="radio" name="appetizer" id="bread_appet" value="appet_bread">
+					<label for="bread_appet">
+					<img src="images/bread.png" alt="Bread w/Dip" class="tumato2">
+					<div class="container_bread">
+						Bread w/Dip
+					</div>
+					</label>
+			</div>
+			<div class="card_tomato">
+					<input type="radio" name="appetizer" id="tomato_appet" value="appet_tomato">
+					<label for="tomato_appet">
+					<img src="images/tomato.png" alt="Tomato Surprise" class="tumato2">
+					<div class="container_tomato">
+						Tomato Surprise
+					</div>
+					</label>
+			</div>
+			<div class="card_mushroom">
+					<input type="radio" name="appetizer" id="mush_appet" value="appet_mush">
+					<label for="mush_appet">
+					<img src="images/Mushroom.png" alt="Mushroom Bites" class="tumato2">
+					<div class="container_mushroom">
+						Mushroom Bites
+					</div>
+					</label>
+			</div>
+		</div>
+		<br>
+		<div id="main_dish_text">
+			<p>Main Dish(Select all that applies)<p>
+		</div>
+		<div id="maindish_section">
+			<img src="images/Main Dishes.png" class="base2">
+			<div class="card_roast_beef">
+					<input type="checkbox" name="main" id="beef_main" value="main_beef">
+					<label for="beef_main">
+					<img src="images/rbeef.png" alt="Roast Beef" class="tumato2">
+					<div class="container_roast_beef">
+						Roast Beef
+					</div>
+					</label>
+			</div>
+			<div class="card_beef_steak">
+					<input type="checkbox" name="main" id="steak_main" value="main_steak">
+					<label for="steak_main">
+					<img src="images/steak.png" alt="Beef Steak" class="tumato2">
+					<div class="container_beef_steak">
+						Beef Steak
+					</div>
+					</label>
+			</div>
+			<div class="card_ribs">
+					<input type="checkbox" name="main" id="ribs_main" value="main_ribs">
+					<label for="ribs_main">
+					<img src="images/ribs.png" alt="Pork Spareribs" class="tumato2">
+					<div class="container_ribs">
+						Pork Spareribs
+					</div>
+					</label>
+			</div>
+			<div class="card_marbella">
+					<input type="checkbox" name="main" id="marbella_main" value="main_marbella">
+					<label for="marbella_main">
+					<img src="images/marbella.png" alt="Pork Marbella" class="tumato2">
+					<div class="container_marbella">
+						Pork Marbella
+					</div>
+					</label>
+			</div>
+			<div class="card_grilled">
+					<input type="checkbox" name="main" id="grilled_main" value="main_grilled">
+					<label for="grilled_main">
+					<img src="images/gchicken.png" alt="Grilled Chicken" class="tumato2">
+					<div class="container_grilled">
+						Grilled Chicken
+					</div>
+					</label>
+			</div>
+			<div class="card_roast">
+					<input type="checkbox" name="main" id="roast_main" value="main_roast">
+					<label for="roast_main">
+					<img src="images/rchicken.png" alt="Roast Chicken" class="tumato2">
+					<div class="container_roast">
+						Roast Chicken
+					</div>
+					</label>
+			</div>
+			<div class="card_broiled">
+					<input type="checkbox" name="main" id="broiled_main" value="main_broiled">
+					<label for="broiled_main">
+					<img src="images/bsalmon.png" alt="Broiled Salmon" class="tumato2">
+					<div class="container_broiled">
+						Broiled Salmon
+					</div>
+					</label>
+			</div>
+			<div class="card_grilled_salmon">
+					<input type="checkbox" name="main" id="grilled_salmon_main" value="main_grilled_salmon">
+					<label for="grilled_salmon_main">
+					<img src="images/gsalmon.png" alt="Grilled Salmon" class="tumato2">
+					<div class="container_grilled_salmon">
+						Grilled Salmon
+					</div>
+					</label>
+			</div>
+		</div>
+		<br>
+		<div id="desert_text">
+			<p>Desert(Select all that applies)<p>
+		</div>
+		<div id="desert_section">
+			<img src="images/Deserts.png" class="base3">
+			<div class="card_molten">
+					<input type="checkbox" name="desert" id="molten_desert" value="desert_molten">
+					<label for="molten_desert">
+					<img src="images/molten.png" alt="Molten Chocolate Cake" class="tumato3">
+					<div class="container_molten">
+						Molten Chocolate Cake
+					</div>
+					</label>
+			</div>
+			<div class="card_red_velvet">
+					<input type="checkbox" name="desert" id="red_velvet_desert" value="desert_red_velvet">
+					<label for="red_velvet_desert">
+					<img src="images/velvet.png" alt="Red Velvet Cake" class="tumato2">
+					<div class="container_red_velvet">
+						Red Velvet Cake
+					</div>
+					</label>
+			</div>
+			<div class="card_lemon">
+					<input type="checkbox" name="desert" id="lemon_desert" value="desert_lemon">
+					<label for="lemon_desert">
+					<img src="images/lemon.png" alt="Lemon Bars" class="tumato2">
+					<div class="container_lemon">
+						Lemon Bars
+					</div>
+					</label>
+			</div>
+			<div class="card_peanut">
+					<input type="checkbox" name="desert" id="peanut_desert" value="desert_peanut">
+					<label for="peanut_desert">
+					<img src="images/peanut.png" alt="Peanut Butter Bars" class="tumato2">
+					<div class="container_peanut">
+						Peanut Butter Bars
+					</div>
+					</label>
+			</div>
+			<div class="card_buko">
+					<input type="checkbox" name="desert" id="buko_desert" value="desert_buko">
+					<label for="buko_desert">
+					<img src="images/buko.png" alt="Buko Pie" class="tumato2">
+					<div class="container_buko">
+						Buko Pie
+					</div>
+					</label>
+			</div>
+			<div class="card_meringue">
+					<input type="checkbox" name="desert" id="meringue_desert" value="desert_meringue">
+					<label for="meringue_desert">
+					<img src="images/meringue.png" alt="Lemon Meringue Pie" class="tumato2">
+					<div class="container_meringue">
+						Lemon Meringue Pie
+					</div>
+					</label>
+			</div>
+		</div>
+		<br>
+		<div id="rice_text">
+			<p>Rice(Select one)<p>
+		</div>
+		<div id="rice_section">
+			<img src="images/Rice.png" class="base4">
+			<div class="card_plain">
+					<input type="radio" name="rice" id="plain_rice" value="rice_plain" checked>
+					<label for="plain_rice">
+					<img src="images/plain.png" alt="Plain" class="tumato2">
+					<div class="container_plain">
+						Plain
+					</div>
+					</label>
+			</div>
+			<div class="card_garlic">
+					<input type="radio" name="rice" id="garlic_rice" value="rice_garlic">
+					<label for="garlic_rice">
+					<img src="images/garlic.png" alt="Garlic" class="tumato2">
+					<div class="container_garlic">
+						Garlic
+					</div>
+					</label>
+			</div>
+			<div class="card_bagoong">
+					<input type="radio" name="rice" id="bagoong_rice" value="rice_bagoong">
+					<label for="bagoong_rice">
+					<img src="images/bagoong.png" alt="Bagoong" class="tumato2">
+					<div class="container_bagoong">
+						Bagoong
+					</div>
+					</label>
+			</div>
+		</div>
+			<br>
+			<div id="drink_text">
+				<p>Drinks(Select all that applies)<p>
+			</div>
+		<div id="drink_section">
+			<img src="images/Drinks.png" class="base5">
+			<div class="card_cucumber">
+					<input type="radio" name="drink" id="cucumber_drink" value="drink_cucumber" checked>
+					<label for="cucumber_drink">
+					<img src="images/cucumber.png" alt="Cucumber Lemonade" class="tumato2">
+					<div class="container_cucumber">
+						Cucumber Lemonade
+					</div>
+					</label>
+			</div>
+			<div class="card_tea">
+					<input type="radio" name="drink" id="tea_drink" value="drink_tea">
+					<label for="tea_drink">
+					<img src="images/tea.png" alt="Red Iced Tea" class="tumato2">
+					<div class="container_tea">
+						Red Iced Tea
+					</div>
+					</label>
+			</div>
+			<div class="card_mango">
+					<input type="radio" name="drink" id="mango_drink" value="drink_mango">
+					<label for="mango_drink">
+					<img src="images/mango.png" alt="Ripe Mango Juice" class="tumato2">
+					<div class="container_mango">
+						Ripe Mango Juice
+					</div>
+					</label>
+			</div>
+		</div>
+		</fieldset>
+		<br>
+		<fieldset id="delivery">
+			<legend class="size_legend">Delivery Details</legend>
+			<textarea name="delivery_details" id="details_delivery" rows="8" cols="80" required>Address here...</textarea>
+			<br>
+			<br>
+			<label for="date_party">Party Date</label>
+			<input type="date" name="party_date" id="date_party" required>
+			<br>
+			<br>
+			<label for="time_party">Party Time</label>
+			<input type="time" name="party_time" id="time_party" required>
+		</fieldset>
+		<br>
+		<div class="button">
+		<button type="submit">Submit</button>
+		<br>
+		<br>
+		<button type="reset">Reset</button>
+		</div>
+	</form>
+	</div>
+</body>
+
+</html>
